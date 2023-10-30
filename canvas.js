@@ -1,7 +1,7 @@
 let x = 0;
 let y = 0;
 
-const canvasWidth = 500;
+const canvasWidth = 500 ;
 const canvasHeight = 500;
 
 const chunkWidth = 500;
@@ -15,11 +15,6 @@ const numRows = canvasHeight / gridSize;
 
 const chunks = [
 ];
-
-console.log(noise);
-
-
-
 
 function draw() {
     const canvas = document.getElementById("canvas");
